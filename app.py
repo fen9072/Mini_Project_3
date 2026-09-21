@@ -151,7 +151,7 @@ if st.button("Predict salary", type="primary"):
 # -------------------------------------------------
 # Prediction result
 # -------------------------------------------------
-if submitted:
+if st.button("Predict salary", type="primary"):
 
     new_record = pd.DataFrame({
         "year": [year],
